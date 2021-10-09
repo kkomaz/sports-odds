@@ -1,3 +1,5 @@
+// // https://stackoverflow.com/questions/64625050/error-node-sass-version-5-0-0-is-incompatible-with-4-0-0
+
 .App {
   text-align: center;
 }
@@ -36,3 +38,14 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: 'Noto Sans Display', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  background-color: #f9fafb;
+}
+
+$primary: #a22ce9;
+
+/* import bootstrap to set changes */
+@import '~bootstrap/scss/bootstrap';
